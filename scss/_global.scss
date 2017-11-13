@@ -18,28 +18,33 @@ a {
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1{
   font-weight: 700;
   @include header1-font;
+}
+h2
+h3,
+h4,
+h5{
+  font-weight: 400;
+  @include header1-font;
+}
+h6 {
+  @include body-font;
 }
 
 section {
   padding: 100px 0;
   h2.section-heading {
-    font-size: 40px;
+    font-size: 32pt;
     margin-top: 0;
     margin-bottom: 15px;
   }
   h3.section-subheading {
-    font-size: 16px;
+    font-size: 28pt;
     font-weight: 400;
-    font-style: italic;
     margin-bottom: 75px;
+    font-style: italiac;
     text-transform: none;
     @include header1-font;
   }

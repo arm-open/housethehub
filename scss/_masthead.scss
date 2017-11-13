@@ -11,18 +11,19 @@ header.masthead {
     padding-top: 150px;
     padding-bottom: 100px;
     .intro-lead-in {
-      font-size: 22px;
-      font-style: italic;
+      font-size: 36pt;
+      font-weight: 700;
+      font-style: none;
       line-height: 22px;
       margin-bottom: 25px;
       @include header1-font;
     }
     .intro-heading {
-      font-size: 50px;
+      font-size: 36pt;
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
-      @include header2-font;
+      @include header1-font;
     }
   }
 }
@@ -32,8 +33,8 @@ header.masthead {
       padding-top: 300px;
       padding-bottom: 200px;
       .intro-lead-in {
-        font-size: 40px;
-        font-style: italic;
+        font-size: 36pt;
+        font-style: none;
         line-height: 40px;
         margin-bottom: 25px;
         @include header1-font;
