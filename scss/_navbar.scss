@@ -2,7 +2,7 @@
 #mainNav {
   background-color: white;
   .navbar-toggler {
-    font-size: 20pt;
+    font-size: 12pt;
     right: 0;
     padding: 13px;
     text-transform: none;
@@ -18,13 +18,13 @@
     &:active,
     &:focus,
     &:hover {
-      color: $theme-dark-gray;
+      color: $theme-primary;
     }
   }
   .navbar-nav {
     .nav-item {
       .nav-link {
-        font-size: 20pt;
+        font-size: 12pt;
         font-weight: 400;
         padding: 0.75em 0;
         letter-spacing: 1px;
@@ -32,7 +32,7 @@
         @include header1-font;
         &.active,
         &:hover {
-          color: white;
+          color: $theme-primary;
         }
       }
     }

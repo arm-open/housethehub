@@ -61,7 +61,7 @@ body {
 #mainNav {
   background-color: white; }
   #mainNav .navbar-toggler {
-    font-size: 20pt;
+    font-size: 12pt;
     right: 0;
     padding: 13px;
     text-transform: none;
@@ -70,19 +70,19 @@ body {
     background-color: white;
     font-family: 'PT Sans', sans-serif, bold; }
   #mainNav .navbar-brand {
-    color: #5d9ebe;
+    color: #4f4f4f;
     font-family: 'Lilita One', cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #4285a6; }
+      color: #5d9ebe; }
   #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 90%;
+    font-size: 12pt;
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    color: #4f4f4f;
     font-family: 'PT Sans', sans-serif, bold; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: white; }
+      color: #5d9ebe; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -92,9 +92,9 @@ body {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent; }
+    background-color: white; }
     #mainNav .navbar-brand {
-      font-size: 1.75em;
+      font-size: 20pt;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
