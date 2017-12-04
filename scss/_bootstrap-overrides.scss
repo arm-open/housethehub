@@ -6,7 +6,7 @@
 .btn-primary {
   font-weight: 700;
   @include button-variant(white, $theme-primary, $theme-primary);
-  @include heading-font;
+  @include header1-font;
 }
 
 .btn-xl {
@@ -15,5 +15,5 @@
   padding: 20px 40px;
   border-radius: 3px;
   @include button-variant(white, $theme-primary, $theme-primary);
-  @include heading-font;
+  @include header1-font;
 }

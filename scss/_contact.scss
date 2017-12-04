@@ -27,24 +27,24 @@ section#contact {
   ::-webkit-input-placeholder {
     font-weight: 700;
     color: $gray-lighter;
-    @include heading-font;
+    @include header1-font;
   }
   :-moz-placeholder {
     font-weight: 700;
     color: $gray-lighter;
     /* Firefox 18- */
-    @include heading-font;
+    @include header1-font;
   }
   ::-moz-placeholder {
     font-weight: 700;
     color: $gray-lighter;
     /* Firefox 19+ */
-    @include heading-font;
+    @include header1-font;
   }
   :-ms-input-placeholder {
     font-weight: 700;
     color: $gray-lighter;
-    @include heading-font;
+    @include header1-font;
   }
   .text-danger {
     color: $theme-danger;

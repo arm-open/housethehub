@@ -54,7 +54,7 @@
         font-size: 16px;
         font-style: italic;
         margin: 0;
-        @include serif-font;
+        @include header1-font;
       }
     }
   }
@@ -96,7 +96,7 @@
       font-size: 16px;
       font-style: italic;
       margin: 20px 0 30px;
-      @include serif-font;
+      @include header1-font;
     }
     ul.list-inline {
       margin-top: 0;
