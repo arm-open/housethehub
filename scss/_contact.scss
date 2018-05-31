@@ -1,11 +1,15 @@
-// Styling for the contact section
+// Styling for the contact and about section
+#about{
+  background-color : #5d9ebe;
+}
+
 section#contact {
   background-color: $theme-primary;
   background-repeat: no-repeat;
   background-position: center;
-  .section-heading {
-    color: white;
-  }
+  // .section-heading {
+    // color: white;
+  // }
   .form-group {
     margin-bottom: 25px;
     input,
